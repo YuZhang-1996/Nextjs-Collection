@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 export default function Home() {
+  throw new Error("From Home: This is a new Error")
   return (
     <main>
       <h1> Welcom to Nextjs</h1>     
